@@ -77,8 +77,8 @@ const uint8_t fixed_appkey[KEY_SIZE_B] = {4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7};
 #define MAX_VENDOR_MODELS 2
 
 #ifdef CONFIGURE_VENDOR_MODEL
-  #define VENDOR_ID 0x02FF
-  #define VENDOR_MODEL_ID 0xABCD
+  #define VENDOR_ID               0x02FF
+  #define VENDOR_MODEL_ID         0xABCD
   #define VENDOR_GRP_ADDR         0xC001
 #endif
 
@@ -165,7 +165,7 @@ typedef struct
 #define ELEMENT(x)                     x
 #define FRIENDSHIP_CREDENTIALS_NONE    0
 #define PUB_TTL                        3
-#define PUB_PERIOD_MS                  100
+#define PUB_PERIOD_MS                  0
 #define PUB_RETRANS_COUNT              0
 #define PUB_RETRANS_INTERVAL_MS        50
 #define KEY_INDEX_INVALID           0xFFF
